@@ -1,22 +1,18 @@
-<!-- original source code of this page:  https://github.com/compsocialscience/summer-institute-->
 {% assign data = site.data %}
 {% if data.chronicles %}
   
   {% assign histories = data.chronicles | sort: 'year'%}
   
   {% for item in histories %}  
-    {% assign index_mod_2 = forloop.index | modulo: 2 %}
-    {% if index_mod_2 == 1 %}
-      <div class="row">
-    {% endif %}
     <div class="col-md-6">
       <div class="row">
-        <div class="year">
+        <div>
           <p>
             {% if item.year %}
-              <span class="email">
+              <span class="year">
                 {{ item.year | markdownify }}
               </span>
+            {% endif %}
           </p>
         </div>
         <div class="history-text">
@@ -29,13 +25,11 @@
           
             {% if item.comment %}
               <span class="comment">
-              {{ item.description }}
+                {{ item.comment }}
+              </span>
             {% endif %}
         </div>
       </div>
     </div>
-    {% if index_mod_2 == 0 or forloop.last %}
-    </div> <!-- close row -->
-    {% endif %}
   {% endfor %}
 {% endif %}
