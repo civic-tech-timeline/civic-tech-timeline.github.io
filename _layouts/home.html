@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="title">Civic Design Timeline</h2>
+    <h3 class="subtitle">By Cyd Harrell and Collaborators</h3>
+    <p><a href="https://medium.com/@cydharrell/civic-tech-as-a-tween-4cd780b971bb" target="_blank">Background</a></p>
+  {%- endif -%}
+
+  {% include history.html %}
+ 
+
+
+</div>
+
+
