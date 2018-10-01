@@ -1,34 +1,32 @@
 {% assign data = site.data %}
 {% if data.chronicles %}
   
-  {% assign histories = data.chronicles | sort: 'year'%}
+  {% assign histories = data.chronicles %}
   
   {% for item in histories %}  
     <div class="col-md-6">
       <div class="row">
-        <div>
-          <p>
+               
             {% if item.year %}
-              <span class="year">
-                {{ item.year | markdownify }}
-              </span>
+              <div class="year">
+                {{ item.year }}
+              </div>
             {% endif %}
-          </p>
-        </div>
-        <div class="history-text">
-          <span class="media-heading">
-            {{ item.description }}
-          </span>          
-            {% if item.link %}
-              <span class="website"><a href="{{ item.link }}" target="_blank">Related Link</a></span>
-            {% endif %}
-          
-            {% if item.comment %}
-              <span class="comment">
-                {{ item.comment }}
-              </span>
-            {% endif %}
-        </div>
+            <div class="media-heading">
+              {{ item.description }}
+
+              {% if item.link %}
+                <a href="{{ item.link }}" target="_blank">Link</a>
+              {% endif %}
+
+              {% if item.comment %}
+                <div class="comment">
+                  {{ item.comment }}
+                </div>
+              {% endif %}
+
+            </div>          
+                
       </div>
     </div>
   {% endfor %}

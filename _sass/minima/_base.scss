@@ -104,18 +104,22 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: white;
+  background: $brand-color;
   text-decoration: none;
+  padding: 2px 5px 2px 5px;
+  border-radius: 2px;
 
   &:visited {
     /*color: darken($brand-color, 15%);*/
-    color: $brand-color;
+    color: white;
     text-decoration: none;
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $brand-color;
+    background: white;
+    border: 1px solid $brand-color;
   }
 
   .social-media-list &:hover {
@@ -298,80 +302,41 @@ table {
 
 /* Participants */
 .col-md-6{
-  min-height: 250px;  
-}
-
-.profile-photo {
-  max-width: 200px;
-  max-height: 200px;
-  overflow:hidden;
-  float: left;
-  border: 1px solid gray;
-}
-
-.profile-text {  
-  width: 75%;
-  float:left;
-  margin-left: 20px;
-  padding-bottom: 20px;
-  min-height: 230px;
-}
-
-.profile-text p{
-  padding-top: 5px;
-}
-
-
-/* Stay Informed page */
-.mailing a{
-  font-size: 20px;
-  font-weight: bold;
+  min-height: 50px; 
 
 }
-.mailing {
-  text-align: center;
-  margin-bottom: 15px;
-}
 
-.website,
-.email{ 
-  margin-right: 4px;
-}
 
-.website a,
-.email a{
-  font-size: 13px;
+
+.media-heading a{
+  font-size: 15px;
   vertical-align: baseline;
+  margin-left: 10px;
 }
 
-span.media-heading{
-  font-size: 22px;
-  font-weight: 400;
-  margin-right: 9px;
-  margin-bottom: 5px;
+div.media-heading{
+  font-size: 20px;  
+  margin: 0 0 10px 150px;
 }
 
+div.comment{
+  font-size: 15px;
+}
 
-/* Travel */
-.imagesource{
-  font-size: 10px;
+/* Civic Tech Timeline */
+#background{
   text-align: center;
-}
-
-h4.travel{
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.hotel,
-.wtmd{
-  width: 70%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;  
-}
-
-.hotel{
   margin-bottom: 30px;
+}
+
+#background a{
+  font-size: 20px;
+}
+
+div.year {
+  width: 150px;
+  font-size: 20px;
+  color: orange;  
+  min-height: 47px;
+  float: left;
 }

@@ -1,11 +1,211 @@
+- year: 1988
+  description: US Census holds competition for more a more efficient means of tabulating data.
 
 - year: 1996
-  description: Baltimore introduces 311
-  comment: test
+  description: Baltimore introduces 311.
 
 - year: 1998
-  description: Gov Works Launches
+  description: Gov Works Launches.
 
 - year: 2000
-  description: Gov Works Shuts down
+  description: Gov Works Shuts down.
   link: https://en.wikipedia.org/wiki/GovWorks
+
+- year: 2000
+  description: Butterfly ballot disaster -> Dana Chsnell suits up
+
+- year: 2003
+  description: NYC implements 311 as the "Yahoo for city services."
+
+- year: 2005 June
+  description: Google Maps and API launches, allowing free/easy online mapping of data for the first time, inspiring residents to go look for data to map and build public tools.
+
+- year: 2005 June
+  description: Chicago Crime and Louisville Crime Lab launch.
+
+- year: 2006
+  description: Usability in Civic Life ramps up as a project of the Usability Professionals Association. Small team makes a lightweight usability testing kit for local election officials to test ballots.
+
+- year: 2007
+  description: Social Innovation Camp projects use open data scraped from websites etc.
+
+- year: 2007
+  description: MySociety's FixMyStreet launch.
+  link: https://www.mysociety.org/2017/07/21/the-big-one-million-celebrating-fixmystreet/
+
+- year: 2007
+  description: Tim O'Reilly & Lawrence Lessig host meeting to establish public data principles & lobby presidential candidates to adopt them.<br> Open data reverses the idea of FOIA laws, which are older - those say the public has the right to request information from government; open data says government data should be public by default.<br>Machine readable data became increasingly important.
+
+- year: 2007
+  description: Design for Democracy project of AIGA delivers election design best practices.
+
+- year: 2008 January
+  description: EveryBlock launches, needs city data.
+
+- year: 2008
+  description: Apps for Democracy contest with then DC CTO Vivek Kundra providing a bunch of data; became the first national CIO, with Aneesh Chopra as first national CTO.
+
+- year: 2009 January
+  description: Barack Obama takes office, signs open data memorandum immediately.
+
+- year: 2009 May
+  description: Data.gov launches - the nation's open data site.
+
+- year: 2009
+  description: NYC launches BigApps.
+  link: https://en.wikipedia.org/wiki/NYC_BigApps
+
+- year: 2009
+  description: Memphis, Portland, & SF sign first municipal open data policies.
+
+- year: 2009
+  description: H1N1 & Cyd’s first civic tech project w/Bolt Peters & Stanford.
+
+- year: 2009
+  description: Jess McMullin coins Citizen Experience, quits private sector consulting & goes public.
+
+- year: 2009
+  description: GSA creates Office of Citizen Services & Innovative Technology.
+  comment: OCSIT, now as of 2016 called the Office of Products and Programs, part of the Technology Transformation Service
+
+- year: 2010
+  description: Congress creates CFPB.
+
+- year: 2010 Late
+  description: GSA First Fridays begin in DC.
+
+- year: 2010
+  description: Code for America founded.
+
+- year: 2010
+  description: Boston’s Office of New Urban Mechanics founded.
+
+- year: 2010
+  description: Martha Lane Fox's Revolution Not Evolution, that paved the way for Gov.uk.
+  link: https://www.gov.uk/government/publications/directgov-2010-and-beyond-revolution-not-evolution-a-report-by-martha-lane-fox
+
+- year: 2011
+  description: First CfA fellows in the field.
+
+- year: 2011
+  description: The New York City Transparency Working group is formed to pass NYC's open data law.
+  link: https://nyctwg.org/
+
+- year: 2011 April
+  description: GDS launches in the UK (in response to an HC.gov level mess).
+
+- year: 2011 June
+  description: CityCamp SF (huge session on UX 101 for govies).
+
+- year: 2011 June
+  description: Louisville’s Office of Civic Innovation founded.
+
+- year: 2011 Summer
+  description: Gray Area hosted the Summer of Smart, where four civic hackathon teams presented to SF mayoral candidates.
+  link: https://grayarea.org/initiative/summer-of-smart/
+
+- year: 2011 July
+  description: Cyd’s first civic design article (UX Mag).
+
+- year: 2012 January
+  description: San Francisco’s Office of Civic Innovation founded.
+
+- year: 2012 March
+  description: In March, NYC passes its open data law making it the first city in the nation to have a legislatively binding open data law.
+  link: https://opendata.cityofnewyork.us/open-data-law/
+
+- year: 2012
+  description: Kickstarter for Field Guides to Ensuring Voter Intent.
+
+- year: 2012
+  description: GDS Design Principles launch in Alpha.
+
+- year: 2012
+  description: Gov.UK launches.
+
+- year: 2012
+  description: First ChiHackNight - it’s still running!
+
+- year: 2012
+  description: CFPB tests new mortgage disclosures.
+
+- year: 2012
+  description: Elizabeth Buie and Diane Murray publish Usability in Government Systems.
+
+- year: 2012
+  description: First class of Presidential Innovation Fellows.
+
+- year: 2012 October
+  description: First CfA Brigades launched at Summit.
+
+- year: 2013
+  description: UK ADRN Launches.
+  link: https://adrn.ac.uk/
+
+- year: 2013 April
+  description: Gov.UK wins Design of the Year.
+
+- year: 2013 Summer
+  description: First National Day of Civic Hacking.
+
+- year: 2013 Summer
+  description: Jennifer Pahlka becomes Deputy CTO of the US.
+
+- year: 2013 September
+  description: Center for Civic Design founded.
+
+- year: 2013 October
+  description: Failed launch of Healthcare.gov.
+  comment: This was NOT a design failure interestingly.
+
+- year: 2014
+  description: GovTech Fund opens for business.
+
+- year: 2014
+  description: CfA’s Digital Front Door project begins.
+
+- year: 2014 July
+  description: Laurenellen McCann publishes manifesto on need to Build With, Not For.
+  link: http://www.newamerica.org.s3-website-us-east-1.amazonaws.com/oti/build-with-not-for/
+
+- year: 2014 August
+  description: USDS launches (18F also launched 2014).
+
+- year: 2015
+  description: CFPB mortgage disclosure forms become regulation
+
+- year: 2016
+  description: Field Guides in the Cooper Hewitt.
+
+- year: 2016
+  description: California Data Collaborative launches.
+  link: http://californiadatacollaborative.org/
+
+- year: 2016 October
+  description: CfA launches elected National Advisory Council.
+
+- year: 2016 
+  description: US Web Design Standards alpha.
+
+- year: 2016 
+  description: California enacts "Open and Transparent Water Data Act."
+
+- year: 2017
+  description: US Web Design Standards 1.0
+
+- year: 2017 October 
+  description: First CfA Brigades Congress - Philadelphia
+
+- year: 2018
+  description: CfA launches Community Fellowship, placing fellowship in local Brigades.
+
+- year: 2018
+  description: California enacts legislation to "make water conservation a way of life" -- takes historic amount of data.
+
+- year: 2018
+  description: Third annual water data summit.
+  link: https://www.cawaterdatasummit.org/
+
+- year: 2018 October
+  description: Second CFA Brigades Congress - Charlotte
+
