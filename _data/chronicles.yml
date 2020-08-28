@@ -1,5 +1,6 @@
-- year: 1988
+- year: 1888
   description: US Census holds competition for more a more efficient means of tabulating data.
+  comment: The company that will become IBM wins and analog computers are utilized in the next iteration of the census 
 
 - year: 1996
   description: Baltimore introduces 311.
@@ -12,7 +13,9 @@
   link: https://en.wikipedia.org/wiki/GovWorks
 
 - year: 2000
-  description: Butterfly ballot disaster -> Dana Chisnell suits up
+  description: Butterfly ballot disaster
+  comment: Dana Chisnell suits up
+  link: https://danachisnell.com/the-form-that-changed-everything/
 
 - year: 2003
   description: NYC implements 311 as the "Yahoo for city services."
@@ -34,7 +37,8 @@
   link: https://www.mysociety.org/2017/07/21/the-big-one-million-celebrating-fixmystreet/
 
 - year: 2007
-  description: Tim O'Reilly & Lawrence Lessig host meeting to establish public data principles & lobby presidential candidates to adopt them.<br> Open data reverses the idea of FOIA laws, which are older - those say the public has the right to request information from government; open data says government data should be public by default.<br>Machine readable data became increasingly important.
+  description: Tim O'Reilly & Lawrence Lessig host meeting to establish public data principles & lobby presidential candidates to adopt them.
+  comment: Open data reverses the idea of FOIA laws, which are older - those say the public has the right to request information from government; open data says government data should be public by default. Machine readable data becomes increasingly important.
 
 - year: 2007
   description: Design for Democracy project of AIGA delivers election design best practices.
@@ -69,13 +73,13 @@
   comment: OCSIT, now as of 2016 called the Office of Products and Programs, part of the Technology Transformation Service
 
 - year: 2010
-  description: Congress creates CFPB.
+  description: US Congress creates Consumer Financial Protection Bureau (CFPB).
 
 - year: 2010 Late
   description: GSA First Fridays begin in DC.
 
 - year: 2010
-  description: Code for America founded.
+  description: Code for America (CfA) founded.
 
 - year: 2010
   description: Boston’s Office of New Urban Mechanics founded.
@@ -96,7 +100,7 @@
   link: https://en.m.wikipedia.org/wiki/Open_Government_Partnership
 
 - year: 2011 April
-  description: GDS launches in the UK (in response to an HC.gov level mess).
+  description: Government Digital Service (GDS) launches in the UK in response to a Healthcare.gov-level mess.
 
 - year: 2011 June
   description: CityCamp SF (huge session on UX 101 for govies).
@@ -109,7 +113,8 @@
   link: https://grayarea.org/initiative/summer-of-smart/
 
 - year: 2011 July
-  description: Cyd’s first civic design article (UX Mag).
+  description: Cyd’s first civic design article in UX Mag.
+  link: https://uxmag.com/articles/the-citizen-experience-needs-us
 
 - year: 2012 January
   description: San Francisco’s Office of Civic Innovation founded.
@@ -129,12 +134,14 @@
 
 - year: 2012
   description: First ChiHackNight - it’s still running!
+  link: https://chihacknight.org/
 
 - year: 2012
   description: CFPB tests new mortgage disclosures.
 
 - year: 2012
   description: Elizabeth Buie and Diane Murray publish Usability in Government Systems.
+  link: https://www.elsevier.com/books/usability-in-government-systems/buie/978-0-12-391063-9
 
 - year: 2012
   description: First class of Presidential Innovation Fellows.
@@ -148,6 +155,7 @@
 
 - year: 2013 April
   description: Gov.UK wins Design of the Year.
+  link: https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013
 
 - year: 2013 Summer
   description: First National Day of Civic Hacking.
@@ -157,6 +165,7 @@
 
 - year: 2013 September
   description: Center for Civic Design founded.
+  link: https://civicdesign.org/
 
 - year: 2013 October
   description: Failed launch of Healthcare.gov.
@@ -173,13 +182,14 @@
   link: http://www.newamerica.org.s3-website-us-east-1.amazonaws.com/oti/build-with-not-for/
 
 - year: 2014 August
-  description: USDS launches (18F also launched 2014).
+  description: United States Digital Service (USDS) launches (18F also launched 2014).
 
 - year: 2015
   description: CFPB mortgage disclosure forms become regulation
 
 - year: 2016
-  description: Field Guides in the Cooper Hewitt.
+  description: Field Guides to Ensuring Voter Intent in the Cooper Hewitt Museum.
+  link: https://collection.cooperhewitt.org/objects/420777929/
 
 - year: 2016
   description: California Data Collaborative launches.
@@ -188,16 +198,16 @@
 - year: 2016 October
   description: CfA launches elected National Advisory Council.
 
-- year: 2016 
+- year: 2016
   description: US Web Design Standards alpha.
 
-- year: 2016 
+- year: 2016
   description: California enacts "Open and Transparent Water Data Act."
 
 - year: 2017
   description: US Web Design Standards 1.0
 
-- year: 2017 October 
+- year: 2017 October
   description: First CfA Brigades Congress - Philadelphia
 
 - year: 2018
@@ -211,5 +221,5 @@
   link: https://www.cawaterdatasummit.org/
 
 - year: 2018 October
-  description: Second CFA Brigades Congress - Charlotte
+  description: Second CfA Brigades Congress - Charlotte
 
